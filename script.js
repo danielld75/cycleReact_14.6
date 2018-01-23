@@ -52,9 +52,9 @@ var Counter = React.createClass({
   }
 });
 
-var element_1 = React.createElement(Counter);
-ReactDOM.render(element_1, document.getElementById('licznik1'));
-var element_2 = React.createElement(Counter);
-ReactDOM.render(element_2, document.getElementById('licznik2'));
-var element_3 = React.createElement(Counter);
-ReactDOM.render(element_3, document.getElementById('licznik3'));
+var element1 = React.createElement(Counter);
+ReactDOM.render(element1, document.getElementById('licznik1'));
+var element2 = React.createElement(Counter);
+ReactDOM.render(element2, document.getElementById('licznik2'));
+var element3 = React.createElement(Counter);
+ReactDOM.render(element3, document.getElementById('licznik3'));
